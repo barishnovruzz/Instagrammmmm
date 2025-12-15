@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .main {
+        width: 100vw;
+    }
+
+    .sidebar-menu-list {
+        li{
+            font-size: 16px;
+        }
+    }
+}

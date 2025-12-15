@@ -1,0 +1,286 @@
+.app {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+}
+
+/* .sidebar-menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+
+    li {
+        padding: 15px 0px;
+        margin: 10px 0px;
+        display: flex;
+        align-items: center;
+
+        i {
+            margin-right: 15px;
+            font-size: 25px;
+        }
+    }
+}
+
+.sidebar {
+    height: 100vh;
+    padding: 30px;
+    font-size: 1.6rem;
+    position: sticky;
+    top: 0;
+
+
+    .sidebar-profile-image {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+} */
+
+.main {
+    .main__inner {
+        max-width: 700px;
+        margin: 0 auto;
+
+    }
+}
+
+
+
+.stories {
+    .image-box {
+        background-color: blue;
+        padding: 4px;
+        background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+        border-radius: 50%;
+        margin-bottom: 5px;
+
+        img {
+            border-radius: 50%;
+        }
+    }
+}
+
+
+.posts {
+
+    max-width: 500px;
+    margin: 0 auto;
+
+ 
+    .post {
+        margin: 50px 0;
+
+        .post-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.5rem;
+            align-items: center;
+            margin-bottom: 5px;
+
+            .post-header_left {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .post-header-rigth {
+                display: flex;
+                gap: 10px;
+
+                .star {
+                    background: linear-gradient(45deg, rgb(214, 245, 8), red);
+                    -webkit-background-clip: text;
+                    /* для Chrome, Safari */
+                    -webkit-text-fill-color: transparent;
+                    /* прозрачный текст */
+                    background-clip: text;
+                    /* для Firefox */
+                }
+            }
+
+            img {
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+            }
+        }
+
+        .post-actions {
+            font-size: 3rem;
+            margin: 15px 0;
+
+            .comment-icon {
+                margin: 0 15px;
+            }
+
+            .bookmark-icon {
+                float: right;
+
+            }
+        }
+
+        .likes-count {
+            font-size: 1.5rem;
+        }
+
+        .post-description {
+            font-size: 1.6rem;
+            margin-top: 10px;
+            line-height: 25px;
+        }
+
+        .comments-links {
+            color: grey;
+            font-size: 1.6rem;
+            margin: 10px 0;
+        }
+
+        .comment-form {
+            font-size: 1.6rem;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+
+            input {
+                width: 100%;
+                background: transparent;
+                border: none;
+                font-size: 1.6rem;
+                outline: none;
+                color: white;
+            }
+        }
+
+        hr {
+
+            border: 1px solid rgb(40, 40, 40);
+        }
+    }
+}
+
+.recomendation-aside {
+    padding-top: 20px;
+    font-size: 1.5rem;
+
+    .recomendation-aside__inner {
+        max-width: 300px;
+
+        .profile-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+            }
+
+
+
+            .left {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .description {
+                    color: grey;
+                }
+
+            }
+
+            .right {
+                color: #556CC3;
+            }
+        }
+
+        .recomendations {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .recomendations-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                h3 {
+                    color: grey;
+                }
+            }
+        }
+
+        footer {
+            margin-top: 50px;
+            ;
+            font-size: 1.4rem;
+            color: grey;
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            p {
+                margin-top: 20px;
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 1280px) {
+    .app {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+    }
+
+    .recomendation-aside {
+        display: none;
+    }
+}
+
+
+/* @media (max-width: 960px) {
+    .stories {
+        display: flex;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .posts {
+        width: 100vw;
+    }
+
+    .recomendation-aside {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .sidebar img.logo {
+        width: 120px;
+    }
+
+} */
+
+@media (max-width: 768px) {
+    .stories {
+        margin-top: 100px;
+
+    }
+    .posts{
+        max-width: 900px;
+        .post{
+
+            figure{
+                margin: 0;
+            }
+        }
+    }
+}

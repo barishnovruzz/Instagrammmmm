@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    main {
+        width: 100vw;
+    }
+
+    video {
+        height: 100vh;
+    }
+
+    .h-screen {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+
+    .absolute.bottom-5 {
+        bottom: 90px;
+        padding: 0 16px;
+    }
+    
+
+    .grid {
+        position: absolute;
+        right: 12px;
+        bottom: 90px;
+        gap: 18px;
+        font-size: 45px;
+    }
+
+    .grid p {
+        font-size:30px;
+    }
+    .mt-5 {
+        font-size:20px;
+    }
+
+    .bottom-10 {
+        display: none;
+    }
+}

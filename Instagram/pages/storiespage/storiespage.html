@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #000;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            height: 100vh;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 600px;
+            height: 100%;
+
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div>
+                    <div class="absolute w-full grid grid-rows-2 h-screen">
+                        <div>
+                            <div class="grid grid-cols-4 w-full">
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+
+                            </div>
+                            <div class="mt-auto ml-3 mr-3 flex justify-between">
+                                <div class="flex items-center">
+                                    <div class=" h-10 w-10">
+                                        <img class="rounded-full w-10 h-10"
+                                            src="https://cdn.shopify.com/s/files/1/0246/4468/1773/files/types-of-ants_1024x1024.jpg?v=1722447412"
+                                            alt="">
+                                    </div>
+                                    <p class="ml-3">antland <span class="text-gray-300">1h</span></p>
+                                </div>
+                                <div class="text-2xl">
+                                    <i class="bi bi-pause-fill"></i>
+                                    <i class="bi bi-three-dots"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="grid grid-cols-10 gap-3 text-2xl p-5 items-center">
+                            <input class="h-10 p-3 grow-1 text-xl outline-1 rounded-full col-span-8" type="text"
+                                name="comment" id="comment" placeholder="Reply to antland...">
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-send"></i>
+                        </form>
+                    </div>
+                </div>
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg">
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <div class="absolute w-full grid grid-rows-2 h-screen">
+                        <div>
+                            <div class="grid grid-cols-4 w-full">
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                            </div>
+                            <div class="mt-auto ml-3 mr-3 flex justify-between">
+                                <div class="flex items-center">
+                                    <div class=" h-10 w-10">
+                                        <img class="rounded-full w-10 h-10"
+                                            src="https://cdn.shopify.com/s/files/1/0246/4468/1773/files/types-of-ants_1024x1024.jpg?v=1722447412"
+                                            alt="">
+                                    </div>
+                                    <p class="ml-3">antland <span class="text-gray-300">1h</span></p>
+                                </div>
+                                <div class="text-2xl">
+                                    <i class="bi bi-pause-fill"></i>
+                                    <i class="bi bi-three-dots"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="grid grid-cols-10 gap-3 text-2xl p-5 items-center">
+                            <input class="h-10 p-3 grow-1 text-xl outline-1 rounded-full col-span-8" type="text"
+                                name="comment" id="comment" placeholder="Reply to antland...">
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-send"></i>
+                        </form>
+                    </div>
+                </div>
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg">
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <div class="absolute w-full grid grid-rows-2 h-screen">
+                        <div>
+                            <div class="grid grid-cols-4 w-full">
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+
+                            </div>
+                            <div class="mt-auto ml-3 mr-3 flex justify-between">
+                                <div class="flex items-center">
+                                    <div class=" h-10 w-10">
+                                        <img class="rounded-full w-10 h-10"
+                                            src="https://cdn.shopify.com/s/files/1/0246/4468/1773/files/types-of-ants_1024x1024.jpg?v=1722447412"
+                                            alt="">
+                                    </div>
+                                    <p class="ml-3">antland <span class="text-gray-300">1h</span></p>
+                                </div>
+                                <div class="text-2xl">
+                                    <i class="bi bi-pause-fill"></i>
+                                    <i class="bi bi-three-dots"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="grid grid-cols-10 gap-3 text-2xl p-5 items-center">
+                            <input class="h-10 p-3 grow-1 text-xl outline-1 rounded-full col-span-8" type="text"
+                                name="comment" id="comment" placeholder="Reply to antland...">
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-send"></i>
+                        </form>
+                    </div>
+                </div>
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg">
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <div class="absolute w-full grid grid-rows-2 h-screen">
+                        <div>
+                            <div class="grid grid-cols-4 w-full">
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+                                <div class="rounded-full h-1 my-3 mx-3 bg-white"></div>
+
+                            </div>
+                            <div class="mt-auto ml-3 mr-3 flex justify-between">
+                                <div class="flex items-center">
+                                    <div class=" h-10 w-10">
+                                        <img class="rounded-full w-10 h-10"
+                                            src="https://cdn.shopify.com/s/files/1/0246/4468/1773/files/types-of-ants_1024x1024.jpg?v=1722447412"
+                                            alt="">
+                                    </div>
+                                    <p class="ml-3">antland <span class="text-gray-300">1h</span></p>
+                                </div>
+                                <div class="text-2xl">
+                                    <i class="bi bi-pause-fill"></i>
+                                    <i class="bi bi-three-dots"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="grid grid-cols-10 gap-3 text-2xl p-5 items-center">
+                            <input class="h-10 p-3 grow-1 text-xl outline-1 rounded-full col-span-8" type="text"
+                                name="comment" id="comment" placeholder="Reply to antland...">
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-send"></i>
+                        </form>
+                    </div>
+                </div>
+                <img src="https://swiperjs.com/demos/images/nature-1.jpg">
+            </div>
+
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            // pagination: {
+            //     el: ".swiper-pagination",
+            // },
+        });
+    </script>
+</body>
+
+</html>

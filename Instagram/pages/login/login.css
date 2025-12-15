@@ -1,0 +1,78 @@
+.login {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .login_main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+        gap: 100px;
+
+        .form-box {
+            text-align: center;
+            font-size: 1.5rem;
+
+
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .form {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                input {
+                    background-color: rgb(24, 24, 24);
+                    border: 1px solid grey;
+                    border-radius: 5px;
+                    padding: 12px;
+                    color: rgb(185, 185, 185);
+                    outline: none;
+                }
+
+                .submitInput {
+                    background-color: rgb(63, 43, 210);
+                    color: white;
+                    border: none;
+                }
+
+                .logo {
+                    padding: 0px 60px;
+                }
+
+            }
+
+            .facebookLogin {
+                color: rgb(0, 80, 240);
+                font-weight: 600;
+            }
+
+            .forgotPassword {
+                font-weight: 600;
+            }
+
+            .sighUpLink {
+                color: rgb(84, 0, 240);
+                font-weight: 600;
+
+            }
+
+        }
+
+    }
+}
+
+.footer {
+    margin-top: 100px;
+    .footer_nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    a {
+        font-size: 1.5rem;
+        color: grey;
+    }
+}
